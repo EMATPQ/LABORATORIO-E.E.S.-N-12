@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agenda de Turnos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f3f4f6;
+      color: #333;
+    }
+    header {
+      background: #2563eb;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      margin: 2rem 0 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Reserva tu turno</h1>
+    <p>Seleccioná la fecha y el horario disponible</p>
+  </header>
+
+  <main>
+    <!-- Google Calendar Appointment Scheduling begin -->
+    <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ026qJiAWceKYoR6CIbYNuxSJgYWaihxod6I_eu-SY5-owHQUVj9N0ud8rRCtOX4EFit0M1W46o?gv=true"></iframe>
+    <!-- end Google Calendar Appointment Scheduling -->
+  </main>
+
+  <footer>
+    <p>© 2025 - Agenda de turnos | Diseñado por JDQ</p>
+  </footer>
+</body>
+</html>
